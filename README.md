@@ -1,16 +1,16 @@
-# LuviConsole
-LuviConsole is a console GUI of Unity that include custom command. Created by Thanut Panichyotai (@[LuviKunG]((https://github.com/LuviKunG)))
+# Graphic Shaders
+Graphic Shaders is an Unity Editor Window that able to view all include shaders, add new shaders, remove shaders, sorting shaders, remove null reference or duplicate shaders. Created by Thanut Panichyotai (@[LuviKunG]((https://github.com/LuviKunG)))
 
 ## How to use?
 
-Simply define the LuviConsole in the code.
-```csharp
-void Awake()
-{
-    _ = LuviConsole.Instance;
-}
-```
-Or put the prefab into the most first scene. You can find it in **Packages/LuviConsole/Resources/LuviKunG/LuviConsole.prefab**
+To open Graphic Shaders Window, simply go to your Unity menu bars and select **Window/LuviKunG/Graphic Shaders Management**
+
+You will see a list to shaders and included into your build. You can add/remove or sort these shaders.
+
+On the tool bar in window,
+- **Remove Null Reference** will remove any null reference in list.
+- **Remove Duplication** will remove any shaders in list that is duplicated by mistake.
+- **Sort by Name** will sort all shaders in the list by name.
 
 ## How to install?
 
@@ -25,7 +25,7 @@ Then merge this json format below.
 ```json
 {
   "dependencies": {
-    "com.luvikung.luviconsole": "https://github.com/LuviKunG/LuviConsole.git#2.4.3"
+    "com.luvikung.graphicshaders": "https://github.com/LuviKunG/GraphicShaders.git#1.0.0"
   }
 }
 ```
