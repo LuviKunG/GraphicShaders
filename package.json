@@ -1,0 +1,9 @@
+{
+    "name": "com.luvikung.graphicshaders",
+    "displayName": "Graphic Shaders",
+    "description": "Graphic Shaders is an Unity Editor Window that able to view all include shaders, add new shaders, remove shaders, sorting shaders, remove null reference or duplicate shaders.",
+    "version": "1.0.0",
+    "unity": "2018.4",
+    "license": "MIT",
+    "dependencies": {}
+}
